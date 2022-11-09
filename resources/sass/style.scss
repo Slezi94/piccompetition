@@ -1,0 +1,21 @@
+#create-icon{
+    width: 37px;
+    height: auto;
+}
+
+.alerts{
+    animation-name: remove;
+    animation-duration: 5s;
+    opacity: 0;
+    z-index: 1;
+}
+
+@keyframes remove{
+    0% {opacity: 1;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.main-text{
+    color:#c2c7d0;
+}
